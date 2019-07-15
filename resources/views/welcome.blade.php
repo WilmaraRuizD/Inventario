@@ -1,12 +1,7 @@
 @extends('template')
+@section('titulo','Listado de inventarios')
+@section('contenido')
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>weichert Realtors</title>
-  <link rel="stylesheet" href="{{asset('css/plantilla.css')}}">
-
-</head>
 <body>
   <div id="agrupar">
   <header id="cabecera">
@@ -98,28 +93,31 @@
     <div id="parrafo1" class=" col-xs-12 col-sm-6 col-md-3">
       <figure>
         <img src={{('css/img/imagen4.jpg')}} width="250px" height="250px"><br>
+        <figcaption> DOGWOOD</figcaption>
       </figure>
-      <figcaption> DOGWOOD</figcaption>
     </div>
 
     <div id="parrafo2" class=" col-xs-12 col-sm-6 col-md-3">
        <figure>
        <img src={{('css/img/imagen5.jpg')}} width="250px" height="250px"><br>
+       <figcaption>LITTLETON RD</figcaption>
       </figure>
-      <figcaption>LITTLETON RD</figcaption>
+      
     
     </div>
 
     <div id="parrafo3" class=" col-xs-12 col-sm-6 col-md-3">
       <figure>
-      <img src={{('css/img/images6.jpg')}} width="250px" height="250px"><br>
-    </figure><figcaption>FOXWOOR DR</figcaption>
+         <img src={{('css/img/images6.jpg')}} width="250px" height="250px"><br>
+         <figcaption>FOXWOOR DR</figcaption>
+    </figure>
     </div>
 
     <div id="parrafo4" class=" col-xs-12 col-sm-6 col-md-3">
       <figure>
       <img src={{('css/img/images7.jpg')}} width="250px" height="250px"><br>
-    </figure><figcaption>Avenida Grannis</figcaption>
+      <figcaption>Avenida Grannis</figcaption>  
+    </figure>
     </div>
 
 
@@ -130,17 +128,19 @@
     <div id="parrafo1" class=" col-xs-12 col-sm-6 col-md-3">
       <figure>
         <img src={{('css/img/images8.jpg')}} width="250px" height="250px"><br>
-      </figure>
-      <figcaption>Countrywood Drive</figcaption>
+        <figcaption>Countrywood Drive</figcaption>
+     </figure>
+      
       
     </div>
 
     <div id="parrafo2" class=" col-xs-12 col-sm-6 col-md-3">
        <figure>
-       <img src={{('css/img/images9.jpg')}}
+         <img src={{('css/img/images9.jpg')}}
        width="250px" height="250px"><br>
+          <figcaption> ROSEDALE AVE</figcaption>
       </figure>
-      <figcaption> ROSEDALE AVE</figcaption>
+      
       
     
     </div>
@@ -148,16 +148,18 @@
     <div id="parrafo3" class=" col-xs-12 col-sm-6 col-md-3">
       
       <figure>
-      <img src={{('css/img/images10.jpg')}} width="250px" height="250px"><br>
-    </figure><figcaption>CAMINO DE MONTAÑA</figcaption>
+        <img src={{('css/img/images10.jpg')}} width="250px" height="250px"><br>
+        <figcaption>CAMINO DE MONTAÑA</figcaption>
+     </figure>
       
     </div>
 
     <div id="parrafo4" class=" col-xs-12 col-sm-6 col-md-3">
       
       <figure>
-      <img src={{('css/img/imagen11.jpg')}} width="250px" height="250px"><br>
-    </figure><figcaption>GREENWOOR RD</figcaption>
+        <img src={{('css/img/imagen11.jpg')}} width="250px" height="250px"><br>
+        <figcaption>GREENWOOR RD</figcaption>
+     </figure>
       
     </div>
 
@@ -187,4 +189,4 @@ Calle 72N83-05
  </div>
 </footer>
 </body>
-</html>
+@endsection

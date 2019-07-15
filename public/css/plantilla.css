@@ -1,5 +1,31 @@
-body {
-  background-color: green;
+html,figure, body, h1,nav,article, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
 }
 
+body {
  
+  padding: 10px;
+ margin: 50px;
+}
+	figure{float: left;
+			margin: 2px;
+			-webkit-transition-wibkit-transform 03s ease-in-out 0.1 s;}
+		figure img{
+			padding: 4px;
+			background: #424242;
+		    border-radius: 8px;}
+
+		 figure img:hover{-webkit-transform:scale(1.2);}
+
+		 figcaption{ font:normal 1.3em arial;
+		  			text-align: center;
+		  			margin-top: 5px; }
+
+ footer{
+		padding: 50px;
+		 background-color:#FFBF00;
+		}
+		 	

@@ -29,6 +29,7 @@
 		<td>{{$inventarios->Proveedor}}</td>
 		<td>{{$inventarios->Stock}}</td>
 		<td>{{$inventarios->Nlote}}</td>
+		<td>{{$inventarios->Fvencimiento}}</td>
 		<td><img src="{{asset('storage').'/'.$inventarios->imagen}}"
             alt="" width="100"></td>
    <td>  
